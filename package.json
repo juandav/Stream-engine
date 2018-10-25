@@ -1,0 +1,31 @@
+{
+  "name": "stream-engine",
+  "version": "0.1.0",
+  "description": "webrtc stream engine",
+  "main": "index",
+  "scripts": {
+    "test": "mocha",
+    "start": "npx babel-node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "undefined"
+  },
+  "keywords": [
+    "webrtc",
+    "streaming"
+  ],
+  "author": "juandav",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0"
+  }
+}
